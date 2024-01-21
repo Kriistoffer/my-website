@@ -10,6 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import portraitImg from '@/public/portrait.png';
 import { useSectionInView } from '@/library/custom-hooks';
 import { useActiveSectionContext } from '@/context/active-context-section';
+import { returnCurrentAge } from '@/library/utils';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5);
@@ -35,7 +36,7 @@ export default function Intro() {
       <motion.h1 className="mt-6 mb-12 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
         <span className="font-bold">Hello, my name is Kristoffer. </span>
         <span>
-          I'm 30 years old, I live in Ytterby north of Gothenburg, and I am currently employed as a developer at{' '}
+          I'm {`${returnCurrentAge()}`} years old, I live in Ytterby north of Gothenburg, and I am currently employed as a developer at{' '}
           <span className="font-bold underline">Nexer MyTeam</span>. While I primarily do <span className="italic">frontend work</span>, I do have some
           experience with backend as well.
         </span>

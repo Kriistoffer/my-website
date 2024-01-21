@@ -19,3 +19,14 @@ export const getErrorMessage = (error: unknown): string => {
   }
   return message;
 };
+
+export const returnCurrentAge = (): number => {
+  let dateOfBirth = new Date(1993, 2, 15);
+  let today = new Date();
+  let age = today.getFullYear() - dateOfBirth.getFullYear();
+  let m = today.getMonth() - dateOfBirth.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dateOfBirth.getDate())) {
+    age--;
+  }
+  return age;
+};
