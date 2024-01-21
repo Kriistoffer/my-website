@@ -26,8 +26,8 @@ export default function About() {
         still working to this day.
       </p>
       <p>
-        When I'm not coding I do love spending a lot of time with my girlfriend and our dog, as we train and compete a lot. I absolutely love watching great
-        movies, tv shows, listening to music, and playing some video games.
+        When I'm not coding I do love spending a lot of time with my girlfriend and our dog, as we train and compete a lot. I love watching movies, tv shows,
+        listening to music, and occasionally playing some video games.
       </p>
     </motion.section>
   );
