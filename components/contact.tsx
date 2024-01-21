@@ -41,7 +41,7 @@ export default function Contact() {
       <form
         className="mt-6 flex flex-col dark:text-black"
         action={async (FormData) => {
-          const { data, error } = await sendEmail(FormData);
+          const { error } = await sendEmail(FormData);
           if (error) {
             toast.error(error);
             return;
