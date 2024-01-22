@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## MY-WEBSITE
 
-## Getting Started
+This repository contains all the code for my own personal website.
 
-First, run the development server:
+# Techniques, frameworks, packages, services, and whatnot used in this project:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js (with server actions)
+- React
+- TypeScript
+- Tailwind
+- Prettier
+- ESLint
+- Framer-motion
+- React-icons
+- React-email
+- Resend
+- React-hot-toast
+- React-intersection-observer
+- React-vertical-timeline-component
+- Clsx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+While there probably are things that could be optimised better, and certain packages replaced with own custom-made components, I've made the decision to use a couple of popular packages recommended by others just to get a hang of them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Over time, some of them might end up being replaced by components created by myself, or other third party packages. This is used as a learning experience, which is why this project will include a lot of everything.
