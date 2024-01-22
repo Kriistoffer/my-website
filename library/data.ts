@@ -35,7 +35,7 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Physics, civil engineering',
-    location: 'Chalmers Tekniska Högskola, Gotenburg',
+    location: 'Chalmers Tekniska Högskola, Gothenburg',
     description: 'I begun my civil engineering studies within physics, where my new-found interest in programming begun.',
     icon: React.createElement(LuGraduationCap),
     date: '2018'
