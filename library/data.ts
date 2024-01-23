@@ -107,4 +107,4 @@ export const skillsData = [
   'Framer Motion',
   'CircleCI',
   'Vue'
-] as const;
+];
