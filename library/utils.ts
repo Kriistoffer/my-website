@@ -30,3 +30,26 @@ export const returnCurrentAge = (): number => {
   }
   return age;
 };
+
+//A shuffle function that's based on the Fisher-Yates/Knuth shuffle.
+export const shuffleArray = (arrayOfValues: string[]): string[] => {
+  let currentIndex = arrayOfValues.length,
+    randomIndex;
+
+  while (currentIndex > 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [arrayOfValues[currentIndex], arrayOfValues[randomIndex]] = [arrayOfValues[randomIndex], arrayOfValues[currentIndex]];
+  }
+  return arrayOfValues;
+};
+
+//A shuffle function that's based on the Durstenfeld shuffle, an optimized version of the Fisher-Yates shuffle.
+export const shuffleArray2 = (arrayOfValues: string[]): string[] => {
+  for (let i = arrayOfValues.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arrayOfValues[i], arrayOfValues[j]] = [arrayOfValues[j], arrayOfValues[i]];
+  }
+  return arrayOfValues;
+};
