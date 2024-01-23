@@ -43,7 +43,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
+        className="flex flex-col gap-4 sm:flex-row items-center justify-center sm:gap-8 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
@@ -69,7 +69,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full blackBorder focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/"
           target="_blank"
         >
           <BsLinkedin />
@@ -77,7 +77,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full blackBorder focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/Kriistoffer"
           target="_blank"
         >
           <FaGithubSquare />
