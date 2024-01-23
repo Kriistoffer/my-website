@@ -64,8 +64,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'kristofferjohansson.se',
-    description: 'My current personal website - which you find yourself on right now.',
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer-motion', 'React-email'],
+    description: 'My current personal website which is built with various techniques for learning purposes.',
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer-motion', 'React-email', 'AWS Amplify'],
     imageUrl: kjImg
   },
   {
