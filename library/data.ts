@@ -3,6 +3,8 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import rmtdevImg from '@/public/rmtdev.png';
+import kjImg from '@/public/kristofferjohansson-project-preview.png';
+import nmImg from '@/public/nexermeet-preview.png';
 
 export const links = [
   {
@@ -62,16 +64,15 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'kristofferjohansson.se',
-    description: 'My current personal website - which you find yourself on right now.',
-    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer-motion', 'React-email'],
-    imageUrl: rmtdevImg
+    description: 'My current personal website which is built with various techniques for learning purposes.',
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer-motion', 'React-email', 'AWS Amplify'],
+    imageUrl: kjImg
   },
   {
     title: 'NexerMeet',
-    description:
-      'An internship project at Nexer where I worked as a fullstack developer to create this interactive map of our offices in Gothenburg and Alingsås.',
+    description: 'An internship project at Nexer where I worked as a fullstack developer on an interactive map of our offices in Gothenburg and Alingsås.',
     tags: ['React', 'C#', 'SQL', 'Azure DevOps'],
-    imageUrl: rmtdevImg
+    imageUrl: nmImg
   },
   {
     title: 'SKF Super-precision manager',
